@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     var results = [Result]()
     static let resultCell = "resultCell"
+    let appleApi = AppleApi()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,10 +24,8 @@ class ViewController: UIViewController {
     }
     
     func loadApiData() {
-        let request = HttpRequest.createRequest("https://itunes.apple.com/search?term=bb+king&limit=20")
         
-        HttpWrapperImpl.sendRequest(request, completion: {(data:NSData!, error:NSError!) in
-            // Display error
+        appleApi.getResults({ (data, error) -> Void in
             
             if let apiError = error {
                 print("error \(apiError)")
