@@ -23,7 +23,9 @@ class ViewController: UIViewController {
                 if error.code == -999 { return }
                 
             } else if let resData = data {
-                print("success \(resData)")
+                if let dictionary = HttpWrapperImpl.parseJSON(resData) {
+                    print("dictionary \(dictionary)")
+                }
                 
             }
             
