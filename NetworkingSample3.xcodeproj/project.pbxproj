@@ -17,6 +17,8 @@
 		D27DFCE31C63C4C100893615 /* HttpWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27DFCE21C63C4C100893615 /* HttpWrapper.swift */; };
 		D27DFCE51C63C75600893615 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27DFCE41C63C75600893615 /* HttpRequest.swift */; };
 		D27DFCE71C63C89100893615 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27DFCE61C63C89100893615 /* Result.swift */; };
+		D27DFCE91C63EFF600893615 /* AppleApiOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27DFCE81C63EFF600893615 /* AppleApiOperation.swift */; };
+		D27DFCED1C63F37F00893615 /* AppleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27DFCEC1C63F37F00893615 /* AppleApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		D27DFCE21C63C4C100893615 /* HttpWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpWrapper.swift; path = ../HttpWrapper.swift; sourceTree = "<group>"; };
 		D27DFCE41C63C75600893615 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpRequest.swift; path = ../HttpRequest.swift; sourceTree = "<group>"; };
 		D27DFCE61C63C89100893615 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		D27DFCE81C63EFF600893615 /* AppleApiOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleApiOperation.swift; sourceTree = "<group>"; };
+		D27DFCEC1C63F37F00893615 /* AppleApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		D27DFCA81C63C2FD00893615 = {
 			isa = PBXGroup;
 			children = (
+				D27DFCEC1C63F37F00893615 /* AppleApi.swift */,
 				D27DFCB31C63C2FD00893615 /* NetworkingSample3 */,
 				D27DFCC81C63C2FE00893615 /* NetworkingSample3Tests */,
 				D27DFCD31C63C2FE00893615 /* NetworkingSample3UITests */,
@@ -107,6 +112,7 @@
 				D27DFCE21C63C4C100893615 /* HttpWrapper.swift */,
 				D27DFCE41C63C75600893615 /* HttpRequest.swift */,
 				D27DFCB61C63C2FD00893615 /* ViewController.swift */,
+				D27DFCE81C63EFF600893615 /* AppleApiOperation.swift */,
 				D27DFCE61C63C89100893615 /* Result.swift */,
 				D27DFCB81C63C2FD00893615 /* Main.storyboard */,
 				D27DFCBB1C63C2FD00893615 /* Assets.xcassets */,
@@ -268,8 +274,10 @@
 				D27DFCB71C63C2FD00893615 /* ViewController.swift in Sources */,
 				D27DFCE71C63C89100893615 /* Result.swift in Sources */,
 				D27DFCE51C63C75600893615 /* HttpRequest.swift in Sources */,
+				D27DFCE91C63EFF600893615 /* AppleApiOperation.swift in Sources */,
 				D27DFCE31C63C4C100893615 /* HttpWrapper.swift in Sources */,
 				D27DFCB51C63C2FD00893615 /* AppDelegate.swift in Sources */,
+				D27DFCED1C63F37F00893615 /* AppleApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
