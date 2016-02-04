@@ -60,4 +60,21 @@ public class HttpWrapperImpl: HttpWrapper{
         // start the task
         task.resume()
     }
+    
+    public class func parseJSON(data: NSData) -> [String: AnyObject]? {
+        
+        do {
+            // Try parsing some valid JSON
+            let json = try NSJSONSerialization.JSONObjectWithData(data, options:NSJSONReadingOptions(rawValue: 0)) as? [String: AnyObject]
+            return json
+        }
+        catch let error as NSError {
+            // Catch fires here, with an NSError being thrown from the JSONObjectWithData method
+            print("A JSON parsing error occurred, here are the details:\n \(error)")
+        }
+        
+        return nil
+    }
+
 }
+
