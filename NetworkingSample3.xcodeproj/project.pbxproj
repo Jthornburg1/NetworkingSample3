@@ -14,6 +14,7 @@
 		D27DFCBF1C63C2FD00893615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27DFCBD1C63C2FD00893615 /* LaunchScreen.storyboard */; };
 		D27DFCCA1C63C2FE00893615 /* NetworkingSample3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27DFCC91C63C2FE00893615 /* NetworkingSample3Tests.swift */; };
 		D27DFCD51C63C2FE00893615 /* NetworkingSample3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27DFCD41C63C2FE00893615 /* NetworkingSample3UITests.swift */; };
+		D27DFCE31C63C4C100893615 /* HttpWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27DFCE21C63C4C100893615 /* HttpWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D27DFCD01C63C2FE00893615 /* NetworkingSample3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingSample3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27DFCD41C63C2FE00893615 /* NetworkingSample3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingSample3UITests.swift; sourceTree = "<group>"; };
 		D27DFCD61C63C2FE00893615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27DFCE21C63C4C100893615 /* HttpWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		D27DFCA81C63C2FD00893615 = {
 			isa = PBXGroup;
 			children = (
+				D27DFCE21C63C4C100893615 /* HttpWrapper.swift */,
 				D27DFCB31C63C2FD00893615 /* NetworkingSample3 */,
 				D27DFCC81C63C2FE00893615 /* NetworkingSample3Tests */,
 				D27DFCD31C63C2FE00893615 /* NetworkingSample3UITests */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D27DFCB71C63C2FD00893615 /* ViewController.swift in Sources */,
+				D27DFCE31C63C4C100893615 /* HttpWrapper.swift in Sources */,
 				D27DFCB51C63C2FD00893615 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				D27DFCDB1C63C2FE00893615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D27DFCDC1C63C2FE00893615 /* Build configuration list for PBXNativeTarget "NetworkingSample3Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				D27DFCDE1C63C2FE00893615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D27DFCDF1C63C2FE00893615 /* Build configuration list for PBXNativeTarget "NetworkingSample3UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				D27DFCE11C63C2FE00893615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
