@@ -15,6 +15,7 @@
 		D27DFCCA1C63C2FE00893615 /* NetworkingSample3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27DFCC91C63C2FE00893615 /* NetworkingSample3Tests.swift */; };
 		D27DFCD51C63C2FE00893615 /* NetworkingSample3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27DFCD41C63C2FE00893615 /* NetworkingSample3UITests.swift */; };
 		D27DFCE31C63C4C100893615 /* HttpWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27DFCE21C63C4C100893615 /* HttpWrapper.swift */; };
+		D27DFCE51C63C75600893615 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27DFCE41C63C75600893615 /* HttpRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,8 @@
 		D27DFCD01C63C2FE00893615 /* NetworkingSample3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingSample3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27DFCD41C63C2FE00893615 /* NetworkingSample3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingSample3UITests.swift; sourceTree = "<group>"; };
 		D27DFCD61C63C2FE00893615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D27DFCE21C63C4C100893615 /* HttpWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpWrapper.swift; sourceTree = "<group>"; };
+		D27DFCE21C63C4C100893615 /* HttpWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpWrapper.swift; path = ../HttpWrapper.swift; sourceTree = "<group>"; };
+		D27DFCE41C63C75600893615 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpRequest.swift; path = ../HttpRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,6 @@
 		D27DFCA81C63C2FD00893615 = {
 			isa = PBXGroup;
 			children = (
-				D27DFCE21C63C4C100893615 /* HttpWrapper.swift */,
 				D27DFCB31C63C2FD00893615 /* NetworkingSample3 */,
 				D27DFCC81C63C2FE00893615 /* NetworkingSample3Tests */,
 				D27DFCD31C63C2FE00893615 /* NetworkingSample3UITests */,
@@ -101,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				D27DFCB41C63C2FD00893615 /* AppDelegate.swift */,
+				D27DFCE21C63C4C100893615 /* HttpWrapper.swift */,
+				D27DFCE41C63C75600893615 /* HttpRequest.swift */,
 				D27DFCB61C63C2FD00893615 /* ViewController.swift */,
 				D27DFCB81C63C2FD00893615 /* Main.storyboard */,
 				D27DFCBB1C63C2FD00893615 /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D27DFCB71C63C2FD00893615 /* ViewController.swift in Sources */,
+				D27DFCE51C63C75600893615 /* HttpRequest.swift in Sources */,
 				D27DFCE31C63C4C100893615 /* HttpWrapper.swift in Sources */,
 				D27DFCB51C63C2FD00893615 /* AppDelegate.swift in Sources */,
 			);
