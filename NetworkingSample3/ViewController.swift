@@ -13,6 +13,23 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let request = HttpRequest.createRequest("https://itunes.apple.com/search?term=bb+king&limit=20")
+        
+        HttpWrapperImpl.sendRequest(request, completion: {(data:NSData!, error:NSError!) in
+            // Display error
+            
+            if let apiError = error {
+                print("error \(apiError)")
+                if error.code == -999 { return }
+                
+            } else if let resData = data {
+                print("success \(resData)")
+                
+            }
+            
+            
+        })
+
     }
 
     override func didReceiveMemoryWarning() {
